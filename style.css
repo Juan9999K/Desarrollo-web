@@ -1,0 +1,291 @@
+body{
+    font-family: 'Playfair Display', serif;
+       
+      
+}
+
+header{
+    background: linear-gradient(135deg, #8a2be2, #00bfff); /* Gradiente morado a azul neon */
+    padding: 20px 0;
+
+}
+
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    height: 225px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productos li {
+    flex: 0 1 calc(33.333% - 20px); /* Ajusta este valor según la cantidad de productos por fila y el espacio entre ellos */
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin-bottom: 20px; /* Ajusta este valor según el espacio que desees entre las filas de productos */
+    box-sizing: border-box; /* Esto evita que el padding y el border afecten el ancho total */
+    background: #CCCCCC;
+    border-color: rgb(60, 26, 230);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px 25px 40px 50px;
+}
+
+.productos li:hover{
+    border-color:red;
+}
+
+.productos li:active{
+    border-color: aqua;
+}
+
+.productos img {
+    width: 100%; /* Establece el ancho de todas las imágenes al 100% del contenedor padre */
+    height: 200px; /* Establece una altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene la proporción original y cubre el área especificada */
+    display: block; /* Elimina cualquier espacio adicional alrededor de la imagen */
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    height: 215px;
+    /* Puedes agregar otras propiedades de estilo según sea necesario */
+  }
+  
+
+.web{
+    height: 120px;
+    padding: 40px;
+}
+
+.copyright {
+    color: beige;
+    font-size: 13px;
+    position: relative;
+    top: -10px; /* Ajusta este valor según lo que necesites para subir el texto */
+    width: 1380x;
+}
+
+
+
+
+
+
+
+form label,form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+    margin-top: 40px; /* Ajusta este valor según la cantidad de espacio que deseas entre el formulario y el contenido superior */
+
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 8px;
+    padding: 1.9px 24px;
+    width: 30%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: peachpuff;
+    background: #00bfff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.enviar:hover{
+    background: blue;
+    transform: scale(1.2);
+}
+
+/* estilos.css */
+table {
+    width: 50%;
+    
+}
+
+/* estilos.css */
+/* estilos.css */
+
+tbody {
+    border: 2px solid #0000;  /* Ajusta el color del borde si es necesario */
+    padding: 15px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #f2f2f2;
+
+    
+}
+
+/* Aqui inicia el CSS para nuestra Home */
+
+.banner {
+    width: 90%; /* Ajusta el ancho de la imagen al 80% del tamaño de su contenedor */
+    height: 310px; /* Fija la altura de la imagen a 200 píxeles */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    padding: 4em;
+    width: 940px;
+    margin: 0 auto;
+    
+  }
+
+  .principal{
+    background: #feefef;
+  }
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-shadow: 2px 2px 10px red;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+ font-weight: bold;
+}
+
+.diferenciales{
+    padding: 40px 4em;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(yellow, blue,red
+    )
+}
+
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenDiferenciales {
+        width: 40%;
+        padding: 30px 4em;
+        height: 40%;
+        margin-left: 480px;
+        margin-top: -60px;
+        box-shadow: 10px 10px 30px 15px rgb(0, 174, 255); /* Ajusta los valores según sea necesario */
+
+    }
+    
+
+
+
+.imagenDiferenciales:hover {
+    opacity: 0.3;;
+    transition: 400ms;
+}
+
+
+.video{
+    width: 560px;
+    margin: 1em auto;
+    margin-top: 110px; /* Ajusta el valor según sea necesario */
+
+}
+
+.items:before{
+    content:"★"
+}
+@media screen and (max-width:480px) {
+
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenidoDiferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imagenDiferenciales{
+        width: 100%;
+    }
+}

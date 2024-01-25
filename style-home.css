@@ -1,0 +1,60 @@
+body {
+    background-color: #00bfff; /* Azul neon */
+    margin: 0; /* Esto elimina el margen predeterminado del cuerpo */
+}
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+#banner {
+    width: 100%;
+    height: 300px; /* Puedes ajustar este valor según tus preferencias */
+    object-fit: cover; /* Esto mantendrá la proporción original y cubrirá el área especificada */
+}
+
+.principal{
+    background: burlywood;
+    padding: 20px;
+
+}
+
+.titulo-centralizado{
+    text-align: center
+}
+
+p{
+    text-align: center;
+}
+
+
+em strong{
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+
+
+.items{
+    font-size: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.lista .imagenDiferenciales{
+  width: 50%;
+
+}
